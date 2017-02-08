@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.925 sec <<< FAILURE! - in TestSuite
+beforeTest(testCases.LaunchTest)  Time elapsed: 0.476 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/io/CircularOutputStream
+	at testCases.LaunchTest.beforeTest(LaunchTest.java:56)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.io.CircularOutputStream
+	at testCases.LaunchTest.beforeTest(LaunchTest.java:56)
+

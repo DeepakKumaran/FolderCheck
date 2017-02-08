@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite One]">
+  <test name="Test One(failed)">
+    <classes>
+      <class name="testCases.LaunchTest">
+        <methods>
+          <include name="AzureScreenShot"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testCases.LaunchTest -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [Suite One] -->
